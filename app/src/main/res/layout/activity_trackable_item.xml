@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:fadeScrollbars="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrackableItemActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <requestFocus/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@drawable/edittext_background"
+        />
+
+    <EditText
+        android:id="@+id/edtDescription"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@drawable/edittext_background"
+        />
+    <EditText
+        android:id="@+id/edtWebsiteURL"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website URL"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@drawable/edittext_background"
+        />
+    <EditText
+        android:id="@+id/edtCategory"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:ems="10"
+        android:padding="8dp"
+        android:background="@drawable/edittext_background"
+        />
+    <Button
+        android:id="@+id/btnRecordVideo"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Upload Video(Optional)"
+        />
+        <Button
+            android:id="@+id/btnSelectMap"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Choose Map"
+            />
+    <Button
+        android:id="@+id/btnAddData"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Add Data"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnList"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="List of all added"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Geo Tracker</string>
+    <string name="add_new">Add new</string>
+    <string name="trackables_list">List of Trackables</string>
+    <string name="need_location_permission_message">You need to enable location permissions first</string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">EnabledSetting</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="silent_mode_activated">Silent mode activated</string>
+    <string name="touch_to_relaunch">Touch to launch the app.</string>
+    <string name="back_to_normal">Back to normal</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_desc">Description</string>
+    <string name="hint_web">Website URL</string>
+    <string name="hint_category">Category</string>
+    <string name="add_using_map">Add Using Map</string>
+
+
+</resources>
