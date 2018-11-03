@@ -1,4 +1,4 @@
-# ShushMe
+# Google Near By Places
 Google Places API demo app
 
 ## Screenshots
